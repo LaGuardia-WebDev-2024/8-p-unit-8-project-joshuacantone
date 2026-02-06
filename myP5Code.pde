@@ -9,7 +9,9 @@ setup = function() {
 
 //🟢draw Function - will run on repeat
 draw = function(){
-  
+  textSize(80);
+  fill(0, 0, 0);
+  text("𓆝", mouseX, mouseY);
 };
 
 //🟢mouseClicked Function - will run when mouse is clicked
@@ -25,9 +27,7 @@ var drawFish = function(fishX, fishY, fishColor){
 };
 
 var drawCursor = function(){
-  textSize(80);
-  //fill(fishColor);
-  text("𓆝", fishX, fishY);
+ 
 };
 
 
